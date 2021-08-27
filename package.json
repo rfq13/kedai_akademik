@@ -1,0 +1,35 @@
+{
+  "name": "kedai_akademik",
+  "version": "1.0.0",
+  "description": "back end development for kedai_akademik",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfq13/kedai_akademik.git"
+  },
+  "keywords": [
+    "kedai",
+    "akademik",
+    "academics",
+    "nodejs"
+  ],
+  "author": "rfq13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rfq13/kedai_akademik/issues"
+  },
+  "homepage": "https://github.com/rfq13/kedai_akademik#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
